@@ -1,0 +1,96 @@
+.things__wrapper {
+	margin: 1rem 5rem;
+}
+
+.things__heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.online {
+	color: #309260;
+	background-color: #dfedd7;
+	padding: 0.1rem 0.8rem;
+	border-radius: 5px;
+}
+.offline {
+	color: #ff2020;
+	background-color: #f4d0d0;
+	padding: 0.1rem 0.8rem;
+	border-radius: 5px;
+}
+.delete__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.delete__btn span:first-child {
+	line-height: 1;
+}
+.delete__btn span:last-child {
+	color: #bf0e08;
+}
+.delete__btn span:first-child > svg {
+	color: #bf0e08;
+	height: 12px;
+}
+
+.resolve__btn {
+	text-decoration: none;
+	color: blue;
+}
+
+.column > span {
+	color: #000;
+}
+
+.customBtn {
+	flex: 0.3;
+	background: #73be47 !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem 0;
+	color: #fff !important;
+}
+.customBtn span {
+	display: inline-flex;
+}
+.customBtn span.Icon {
+	margin: 0 0.4rem 0 0;
+}
+
+.things__alarm__heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tbl__column span {
+	font-weight: 500;
+}
+
+.form__group {
+	margin-bottom: 1rem;
+}
+.form__group label {
+	display: inline-block;
+	font-size: 14px;
+	margin: 0.2rem 0;
+}
+
+.dialgue__footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.dialgue__footer button.customBtn{
+	flex: .4;
+	margin-left: 1rem;
+}

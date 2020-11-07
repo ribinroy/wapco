@@ -1,0 +1,145 @@
+.membership__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo {
+	margin: 1rem 0;
+}
+.logo h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo__img {
+	display: inline-block;
+	background-image: url(../../assets/icn-sensor.svg);
+	width: 20px;
+	height: 30px;
+	background-repeat: no-repeat;
+	margin: 0.1rem;
+}
+.membership__form__wrapper {
+	padding: 1.5rem;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #E8E9EB;
+	width: 25%;
+}
+
+.form__heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tabs__btn {
+	margin: 0 !important;
+	border: 1px solid #ccc;
+	padding: 0.5rem 1.4rem !important;
+	border-radius: 0 !important;
+	font-weight: 400 !important;
+}
+.form__body .panel__login {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+}
+.social__btn {
+	width: 100%;
+	margin: 0.5rem 0;
+	display: flex;
+	justify-content: space-between;
+	height: 2.5rem;
+	background: transparent;
+	border-radius: 5px;
+	align-items: center;
+}
+.social__icon {
+	display: inline-block;
+	margin: 0 0.3rem;
+}
+.btn__txt {
+	flex: 1;
+}
+.btn__fb {
+	background-color: #1877f2;
+	color: #fff;
+	border: none;
+}
+.btn__fb .social__icon {
+	background: #fff;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	color: #1877f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+}
+.btn__gle {
+	color: #757575;
+	border: 2px solid #ccc;
+}
+
+.divider__or {
+	margin: 1rem 0;
+	text-align: center;
+}
+.login__form {
+	width: 100%;
+}
+.form__input input {
+	width: 100%;
+	margin: 0.5rem 0;
+}
+.login__form button {
+	width: 100%;
+	background: #73be47 !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem 0;
+}
+
+.forgot__password {
+	font-size: 12px;
+	width: 100%;
+	text-align: right;
+	margin: 0;
+}
+.form__input__signup {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form__input__signup input:first-child {
+	flex: 0.48;
+	margin-right: auto;
+}
+.form__input__signup input:last-child {
+	flex: 0.48;
+	margin-left: auto;
+}
+.terms__checkbox {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.terms__checkbox a {
+	font-size: 12px;
+	padding: 0 0.2rem;
+}
+
+@media only screen and (max-width: 900px) and (min-width:600px) {
+	.membership__form__wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.membership__form__wrapper {
+		width: 80%;
+	}
+}

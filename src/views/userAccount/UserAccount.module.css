@@ -1,0 +1,43 @@
+.user__account_wrapper {
+	background-color: #fff;
+	padding: 1rem 2rem;
+	width: 40%;
+	margin: 3rem auto;
+	border-radius: 5px;
+	border: 1px #E8E9EB;
+}
+.user_img div {
+	padding: 1rem;
+	margin: 1rem 0;
+	background: #d4eee2;
+	border-radius: 50%;
+}
+.user_img div span {
+	color: #777;
+}
+.input__field_1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.input__field_1 input {
+	width: 100%;
+}
+
+.input__field_1 div:first-child {
+	flex: 0.48;
+	margin-right: auto;
+}
+.input__field_1 div:last-child {
+	flex: 0.48;
+	margin-left: auto;
+}
+.user__account_wrapper form button {
+	width: 100%;
+	background: #73be47 !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem 0;
+	color: #fff;
+}

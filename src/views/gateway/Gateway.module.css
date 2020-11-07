@@ -1,0 +1,59 @@
+.gateway__form__wrapper {
+    width: 40%;
+    margin: 5rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 1px solid #e8e9eb;
+}
+.input__field {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input__field div:first-child {
+    margin: 0;
+    flex: 0.7;
+    margin: 0 1rem 0 0;
+}
+
+.input__field button {
+    flex: 0.3;
+    background: #73be47 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    color: #fff;
+}
+
+.error_wrap {
+    padding: 15px 20px;
+    border: 1px solid #f3f3f3;
+    position: relative;
+    margin-top: 5px;
+}
+
+.error_wrap:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: #d25754;
+}
+
+.attention_icon {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: #d25754;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-right: 11px;
+}

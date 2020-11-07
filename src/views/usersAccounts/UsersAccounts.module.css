@@ -1,0 +1,45 @@
+.users__wrapper {
+	margin: 1rem 5rem;
+}
+
+.users__heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.column > span {
+	color: #000;
+}
+.tbl__column span {
+	font-weight: 500;
+}
+
+.delete__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.delete__btn span:first-child {
+	line-height: 1;
+}
+.delete__btn span:last-child {
+	color: #bf0e08;
+}
+.delete__btn span:first-child > svg {
+	color: #bf0e08;
+	height: 12px;
+}
+.resolve__btn {
+	text-decoration: none;
+	color: blue;
+}
+
+.avatar span {
+	color: #777;
+	font-size: 12px;
+	background: #d4eee2;
+}
