@@ -16,20 +16,20 @@ export default function AddLocation({ isShown, onClose, heading }) {
                 isShown={isShown}
                 title={heading}
                 onCloseComplete={onClose}
+                footer={
+                    <div className={classes.footerWrap}>
+                        <Button className={classes.customBtn}>
+                            <span className={classes.Icon}>
+                                <AddIcon style={{ height: '12px' }} />
+                            </span>
+                            <span>Add Location</span>
+                        </Button>
+                        <Button onClick={onClose}>Cancel</Button>
+                    </div>
+                }
                 hasFooter={false}>
                 <TextInputField label='Location Name' />
                 <TextInputField label='Location Address' />
-                <Menu.Divider />
-
-                <div className={classes.footerWrap}>
-                    <Button className={classes.customBtn}>
-                        <span className={classes.Icon}>
-                            <AddIcon style={{ height: '12px' }} />
-                        </span>
-                        <span>Add Location</span>
-                    </Button>
-                    <Button onClick={onClose}>Cancel</Button>
-                </div>
             </Dialog>
         </Pane>
     );
