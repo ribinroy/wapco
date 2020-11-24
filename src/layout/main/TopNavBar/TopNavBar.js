@@ -14,12 +14,20 @@ import {
 } from 'evergreen-ui';
 import HomeIcon from '../../../assets/icn-home.svg';
 import ClockIcon from '../../../assets/icn-clock.svg';
+import AddLocation from './../../../views/locations/AddLocation.js';
+
 function TopNavBar(props) {
+    const [showAddLocation, setShowAddLocation] = useState(false);
     const history = useHistory();
     const [showSettings, setSettings] = useState(false);
 
     return (
         <div className={classes.top__bar__wrapper}>
+            <AddLocation
+                heading={'Add Location'}
+                isShown={showAddLocation}
+                onClose={() => setShowAddLocation(false)}
+            />
             <div className={classes.top__bar}>
                 <div className={classes.logo}>
                     <h3>
@@ -179,12 +187,22 @@ function TopNavBar(props) {
                 </div>
                 <div className={classes.back_link}>
                     {props.customBtn ? (
-                        <Button className={classes.customBtn}>
-                            <span className={classes.Icon}>
-                                <AddIcon style={{ height: '12px' }} />
-                            </span>
-                            <span>Add Gateway</span>
-                        </Button>
+                        <>
+                            <Button className={classes.customBtn}>
+                                <span className={classes.Icon}>
+                                    <AddIcon style={{ height: '12px' }} />
+                                </span>
+                                <span>Add Gateway</span>
+                            </Button>
+                            <Button
+                                className={classes.customBtn}
+                                onClick={() => setShowAddLocation(true)}>
+                                <span className={classes.Icon}>
+                                    <AddIcon style={{ height: '12px' }} />
+                                </span>
+                                <span>Add Location</span>
+                            </Button>
+                        </>
                     ) : (
                         <Button>Back</Button>
                     )}

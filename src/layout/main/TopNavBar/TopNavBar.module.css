@@ -123,6 +123,8 @@
     align-items: center;
     margin: 0.5rem 0;
     color: #fff !important;
+    float: right;
+    margin-left: 15px;
 }
 .customBtn span {
     display: inline-flex;
@@ -136,10 +138,10 @@
 }
 
 .middle__items {
-    flex: 1 0 45%;
+    flex: 1 0 25%;
 }
 .back_link {
-    flex: 1 0 15%;
+    flex: 1 0 35%;
     text-align: right;
 }
 .location__info {
